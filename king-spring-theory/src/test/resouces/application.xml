@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="userService" class="com.study.spring.theory.king.sample.UserServiceImpl"/>
+</beans>
+<!--xml文件来配置beanDefinition信息
+框架来完成解析xml new BeanDefinition 注册到BeanFactory 完成这一个功能
+再哪里实现这个功能?
+增加一个ApplicationContext 实现这一功能-->
